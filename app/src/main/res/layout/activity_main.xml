@@ -8,7 +8,6 @@
     android:background="@drawable/bg_gradient"
     android:padding="32dp"
     android:paddingTop="32dp"
-    android:paddingBottom="0dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,10 +22,8 @@
         android:paddingBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:layout_width="80dp"
@@ -62,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat_semibold"
-        android:text="QUOTIFY"
+        android:text="QUOTES"
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textSize="28sp"
